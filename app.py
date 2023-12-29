@@ -2,7 +2,7 @@ from shiny import App, ui
 
 # Part 1: ui ----
 app_ui = ui.page_fluid(
-    ui.input_slider("n", "Choose a number n:", 0, 100, 50 ),
+    ui.input_slider("n", "Choose a number n:", 0, 100, 25 ),
     ui.output_text_verbatim("txt")
 )
 
